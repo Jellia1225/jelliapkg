@@ -6,6 +6,7 @@
 #'
 #' @return A greeting string.
 #' @export
+<<<<<<< HEAD
 #' @importFrom glue glue
 #'
 #' @examples
