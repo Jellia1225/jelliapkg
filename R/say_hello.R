@@ -1,9 +1,15 @@
 #' Say Hello
 #'
-#' This function prints "Hello, world!" to the console.
+#' A simple function that returns a personalized greeting.
 #'
-#' @return No return value, called for side effects (printing).
+#' @param name A character string containing the name of the person to greet.
+#'
+#' @return A greeting string.
 #' @export
-say_hello <- function() {
-  print("Hello, world!")
+#' @importFrom glue glue
+#'
+#' @examples
+#' say_hello("Jellia")
+say_hello <- function(name) {
+  glue::glue("Hello {name}!")
 }

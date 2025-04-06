@@ -4,11 +4,17 @@
 \alias{say_hello}
 \title{Say Hello}
 \usage{
-say_hello()
+say_hello(name)
+}
+\arguments{
+\item{name}{A character string containing the name of the person to greet.}
 }
 \value{
-No return value, called for side effects (printing).
+A greeting string.
 }
 \description{
-This function prints "Hello, world!" to the console.
+A simple function that returns a personalized greeting.
+}
+\examples{
+say_hello("Jellia")
 }

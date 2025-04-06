@@ -1,12 +1,17 @@
 Package: jelliapkg
-Title: What the Package Does (One Line, Title Case)
+Title: Say Hello R Package
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Jellia", "Ma", , "jellia1225@gmail.com", role = c("aut", "cre"))
+Description: A toy package that contains a simple greeting function called say_hello.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 URL: https://github.com/Jellia1225/jelliapkg
 BugReports: https://github.com/Jellia1225/jelliapkg/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    glue
